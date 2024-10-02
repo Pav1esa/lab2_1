@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Павлеса Олег ПП-21</title>
+    </head>    
+    <body>
+        <script>
+            document.write(
+                "<p style='text-align:center'>Використання оператора <strong>IF</strong> з мовами</p>"
+            );
+
+            // Задаємо змінну lang
+            let lang = prompt("Введіть код мови (ua, en, pl, de):");
+
+            // Перевіряємо значення змінної lang
+            if (lang === "ua") {
+                document.write("<p>Мова: Українська</p>");
+            }
+            else if (lang === "en") {
+                document.write("<p>Мова: Англійська</p>");
+            }
+            else if (lang === "pl") {
+                document.write("<p>Мова: Польська</p>");
+            }
+            else if (lang === "de") {
+                document.write("<p>Мова: Німецька</p>");
+            }
+            else {
+                document.write("<p>Мову невизначено</p>");
+            }
+        </script>
+    </body>
+</html>
